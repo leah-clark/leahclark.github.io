@@ -3,7 +3,7 @@
   "name": "react-gh-pages",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://leah-clark.github.io/leahclark.github.io",
+  "homepage": "http://leah-clark.github.io/twotiltwelve",
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
