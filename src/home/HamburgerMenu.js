@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Burger from '../resources/hamburger.png'
 import './overlay.css';
+import './Home.css';
+import { Link } from 'react-router-dom'
 
 
 
@@ -17,13 +19,13 @@ class HamburgerMenu extends Component {
                     <label for="op"></label>
                     <nav>
                         <ul>
-                            <li><a href="#">HOME</a></li>
-                            <li><a href="#">INFO</a></li>
-                            <li><a href="#">SHOWS</a></li>
-                            <li><a href="#">MUSIC</a></li>
-                            <li><a href="#">STORIES</a></li>
-                            <li><a href="#">GALLERY</a></li>
-                            <li><a href="#">NEWS</a></li>
+                            <li><Link  to='/'>HOME</Link></li>
+                            <li><Link to='/info'>INFO</Link></li>
+                            <li><Link to='/shows'>SHOWS</Link></li>
+                            <li><Link to='/music'>MUSIC</Link></li>
+                            <li><Link to='/stories'>STORIES</Link></li>
+                            <li><Link to='/gallery'>GALLERY</Link></li>
+                            <li><Link to='/news'>NEWS</Link></li>
                         </ul>
                     </nav>
                 </div>

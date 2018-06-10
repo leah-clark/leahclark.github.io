@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
-import logo from './resources/LOGO.png';
 import './App.css';
-import signup from './resources/signup.png'
 import Header from "./home/Header";
 import Menu from "./home/Menu";
 import Footer from "./home/Footer";
-import Poster from "./resources/Screen Shot 2018-06-08 at 22.19.49.png"
 import Responsive from 'react-responsive-decorator';
-import HeaderMobile from "./home/HeaderMobile";
 import HamburgerMenu from "./home/HamburgerMenu";
+import Routing from "./Routing";
 
 
 class App extends Component {
@@ -38,7 +35,7 @@ class App extends Component {
           }
           <br/>
           <hr />
-          <img src={Poster} alt="poster" style={{height: "500px"}}/>
+          <Routing/>
         <Footer/>
       </div>
     );

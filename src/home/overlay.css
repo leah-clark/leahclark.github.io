@@ -53,6 +53,7 @@
         background: url('https://tympanus.net/Development/FullscreenOverlayStyles/img/cross.png');
         z-index: 100;
         cursor: pointer;
+        pointer-events: none;
     }
 
     .overlay nav {

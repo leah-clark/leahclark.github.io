@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 import './Home.css';
 
 class Menu extends Component {
@@ -7,14 +8,14 @@ class Menu extends Component {
 
             <div className="Menu">
                 <hr />
-                <div class="topnav">
-                    <a class="active" href="#home">HOME</a>
-                    <a href="#info">INFO</a>
-                    <a href="#shows">SHOWS</a>
-                    <a href="#music">MUSIC</a>
-                    <a href="#info">STORIES</a>
-                    <a href="#shows">GALLERY</a>
-                    <a href="#music">NEWS</a>
+                <div className="topnav">
+                    <Link  to='/'>HOME</Link>
+                    <Link to='/info'>INFO</Link>
+                    <Link to='/shows'>SHOWS</Link>
+                    <Link to='/music'>MUSIC</Link>
+                    <Link to='/stories'>STORIES</Link>
+                    <Link to='/gallery'>GALLERY</Link>
+                    <Link to='/news'>NEWS</Link>
                 </div>
             </div>
         );
