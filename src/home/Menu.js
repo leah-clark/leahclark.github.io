@@ -4,7 +4,9 @@ import './Home.css';
 class Menu extends Component {
     render() {
         return (
+
             <div className="Menu">
+                <hr />
                 <div class="topnav">
                     <a class="active" href="#home">HOME</a>
                     <a href="#info">INFO</a>
@@ -18,5 +20,6 @@ class Menu extends Component {
         );
     }
 }
+
 
 export default Menu;

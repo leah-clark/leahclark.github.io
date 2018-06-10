@@ -6,6 +6,8 @@ import Instagram from '../resources/white-instagram-256.png'
 import Snapchat from '../resources/snapchat.png'
 import Spotify from '../resources/imageedit_10_5728340730.jpg'
 import Apple from '../resources/apple.png'
+import YouTube from '../resources/youtube.png'
+
 
 
 class Footer extends Component {
@@ -13,18 +15,19 @@ class Footer extends Component {
     render() {
         return (
             <div className="footer">
-                    <a href="https://www.facebook.com/x.Leah.Clark">
+                <hr/>
+                <a href="https://www.facebook.com/twotiltwelve/" target="_blank">
                         <img border="0" className="icon" alt="Facebook" src={Facebook} ></img></a>
-                    <a href="https://twitter.com/Leah_Ann_Clark">
+                    <a href="https://twitter.com/TwoTilTwelve" target="_blank">
                         <img border="0" className="icon" alt="Twitter" src={Twitter}></img></a>
-                    <a href="https://www.linkedin.com/in/leah-clark-97188368/">
+                    <a href="https://www.instagram.com" target="_blank">
                         <img border="0" className="icon" alt="Instagram" src={Instagram} ></img></a>
-                    <a href=" mailto:leahclark95@gmail.com">
+                    <a href="www.snapchat.com" target="_blank">
                         <img border="0" className="icon" alt="Snapchat" src={Snapchat}></img></a>
-                    <a href="https://www.linkedin.com/in/leah-clark-97188368/">
+                    <a href="www.youtube.com" target="_blank">
+                       <img border="0" className="icon" alt="YouTube" src={YouTube}></img></a>
+                    <a href="www.spotify.com">
                         <img border="0" className="icon" alt="Spotify" src={Spotify} ></img></a>
-                    <a href=" mailto:leahclark95@gmail.com">
-                        <img border="0" className="icon" alt="Apple" src={Apple}></img></a>
             </div>
         );
     }

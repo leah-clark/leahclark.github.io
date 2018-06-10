@@ -3,13 +3,12 @@ import logo from '../resources/LOGO.png';
 import './Home.css';
 import signup from '../resources/signup.png'
 
-class Header extends Component {
+class HeaderMobile extends Component {
     render() {
         return (
-            <div className="Header">
-                <header className="App-header">
-                    <img src={logo} alt="twotiltwelve" className="logo"/>
-                    <img src={signup} alt="twotiltwelve" className="signup"/>
+            <div className="HeaderMobile">
+                <header className="App-header-mobile">
+                    <img src={logo} alt="twotiltwelve"/>
                     <h1 className="App-title" >TWO TIL TWELVE</h1>
                 </header>
             </div>
@@ -17,4 +16,4 @@ class Header extends Component {
     }
 }
 
-export default Header;
+export default HeaderMobile;

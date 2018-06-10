@@ -1,9 +1,9 @@
 .left {
     float: left;
     position: inherit;
-    height: 77px;
+    height: 60px;
     position: inherit;
-    margin: 30px 0px 0px 20px;
+    margin: -165px 0px 0px 20px;
 }
 
 .right {
@@ -13,6 +13,23 @@
     position: inherit;
     margin: 15px 0px 0px 20px;
 }
+
+.logo {
+    float: left;
+    position: inherit;
+    height: 77px;
+    position: inherit;
+    margin: 35px 0px 0px 20px;
+}
+
+.signup {
+    float: right;
+    position: inherit;
+    height: 100px;
+    position: inherit;
+    margin: 15px 0px 0px 20px;
+}
+
 
 .App-header {
     background-color: black;
@@ -28,7 +45,7 @@
 }
 
 .footer {
-    position: static;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -64,3 +81,39 @@
     color: black;
     background-color: #f2f2f2;
 }
+
+.App-header {
+    background-color: black;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-header-mobile {
+    background-color: black;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        float: none;
+        position: inherit;
+        height: 110px;
+        position: inherit;
+        margin: 35px 0px 0px 100px;
+    }
+    .signup {
+        float: right;
+        position: inherit;
+        height: 65px;
+        position: inherit;
+        margin: 0px 0px 0px 0px;
+    }
+    .App-title {
+        font-size:1.5em;
+    }
+}
+
