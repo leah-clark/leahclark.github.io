@@ -6,6 +6,7 @@ import Footer from "./home/Footer";
 import Responsive from 'react-responsive-decorator';
 import HamburgerMenu from "./home/HamburgerMenu";
 import Routing from "./Routing";
+import Burger from './resources/hamburger.png'
 
 
 class App extends Component {
@@ -28,9 +29,10 @@ class App extends Component {
       const { isMobile } = this.state;
       return (
       <div className="App">
+          <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"></meta>
           <Header/>
           {isMobile ?
-              <HamburgerMenu/> :
+              <br/> :
               <Menu/>
           }
           <br/>

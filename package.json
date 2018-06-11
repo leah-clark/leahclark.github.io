@@ -3,7 +3,6 @@
   "name": "react-gh-pages",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://leah-clark.github.io/twotiltwelve",
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
@@ -16,8 +15,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"    
+    "eject": "react-scripts eject"
   }
 }
