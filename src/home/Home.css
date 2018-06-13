@@ -70,6 +70,10 @@
     font-size: 30px;
 }
 
+.poster {
+    height:500px;
+}
+
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: #ddd;
@@ -98,22 +102,43 @@
 
 
 @media only screen and (max-width: 600px) {
-    .logo {
-        float: none;
-        position: inherit;
-        height: 110px;
-        position: inherit;
-        margin: 35px 0px 0px 100px;
+    .poster {
+        height: 100vw;
     }
+
+    .Header {
+        max-width: fit-content;
+    }
+
+
+    .App-header {
+        height: 45vw;
+    }
+
+    .App-title {
+        font-size: 5vw;
+        letter-spacing: 3vw;
+        margin: 2vw 0vw 0vw 4vw;
+    }
+
     .signup {
         float: right;
-        position: inherit;
-        height: 65px;
-        position: inherit;
-        margin: 0px 0px 0px 0px;
+        height: 11vw;
+        position: absolute;
+        margin: 0vw 0vw 0vw 2vw;
     }
-    .App-title {
-        font-size:1.5em;
+
+    .logo {
+        float: none;
+        height: 25vw;
+        position: inherit;
+        margin: 8vw 0vw 0vw 0vw;
+    }
+
+    .icon {
+        padding: 1vw 5vw 2vw 2vw;
+        height: 9vw;
+        width: 9vw;
     }
 }
 

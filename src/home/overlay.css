@@ -7,10 +7,10 @@
     }
 
     .burger {
-        height: 60px;
+        height: 10vw;
         position: absolute;
-        -webkit-margin-before: -165px;
-        margin-left: 15px;
+        -webkit-margin-before: -50vw;
+        margin-left: 3vw;
     }
 
     .lower:hover {
@@ -111,6 +111,7 @@
         display: block;
         -webkit-transition: opacity 0.5s;
         transition: opacity 0.5s;
+        z-index: 2;
     }
 
     .overlay-hugeinc nav {
