@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import Black from "../resources/black_page.jpg"
+import "./news.css"
 
 
 class News extends Component {
     render() {
         return (
             <div className="News">
-                <img src={Black} alt="poster" style={{height: "500px"}}/>
+                <img className="poster" src={Black} alt="poster" />
             </div>
         );
     }
