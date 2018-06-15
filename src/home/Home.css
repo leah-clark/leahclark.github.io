@@ -45,10 +45,11 @@
 }
 
 .footer {
-    position: fixed;
+    position: inherit;
     left: 0;
     bottom: 0;
     width: 100%;
+    margin-top: 110px;
     color: white;
     text-align: center;
 }
@@ -103,42 +104,52 @@
 
 @media only screen and (max-width: 600px) {
     .poster {
-        height: 100vw;
+        height: 88vw;
+        margin-left:5vw;
     }
 
     .Header {
-        max-width: fit-content;
+        width: 100vw;
     }
 
 
     .App-header {
-        height: 45vw;
+        height: 30vw;
     }
 
     .App-title {
-        font-size: 5vw;
+        font-size: 4vw;
         letter-spacing: 3vw;
         margin: 2vw 0vw 0vw 4vw;
     }
 
     .signup {
         float: right;
-        height: 11vw;
+        height: 12vw;
         position: absolute;
-        margin: 0vw 0vw 0vw 2vw;
+        margin: -4vw 0vw 0vw 10vw;
     }
 
     .logo {
         float: none;
-        height: 25vw;
+        height: 18vw;
         position: inherit;
-        margin: 8vw 0vw 0vw 0vw;
+        margin: -3vw 0vw 0vw 0vw;
     }
 
     .icon {
         padding: 1vw 5vw 2vw 2vw;
         height: 9vw;
         width: 9vw;
+    }
+
+    .footer {
+        position: fixed;
+        margin-top: 9vw;
+    }
+
+    .Home {
+        width: fit-content;
     }
 }
 

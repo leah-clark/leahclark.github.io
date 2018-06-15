@@ -7,9 +7,9 @@
     }
 
     .burger {
-        height: 10vw;
+        height: 8vw;
         position: absolute;
-        -webkit-margin-before: -50vw;
+        -webkit-margin-before: -38vw;
         margin-left: 3vw;
     }
 
@@ -53,6 +53,7 @@
         background: url('https://tympanus.net/Development/FullscreenOverlayStyles/img/cross.png');
         z-index: 100;
         cursor: pointer;
+
         pointer-events: auto;
     }
 

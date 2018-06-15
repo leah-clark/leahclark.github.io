@@ -30,6 +30,11 @@
 @media only screen and (max-width: 600px) {
   .App {
     display: table;
+    position: fixed;
+  }
+
+  .hr {
+    margin-top: -10vw;
   }
 }
 

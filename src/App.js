@@ -35,7 +35,7 @@ class App extends Component {
               <HamburgerMenu/> :
               <Menu/>
           }
-          <hr/>
+          <hr className="hr"/>
           <Routing/>
         <Footer/>
       </div>
