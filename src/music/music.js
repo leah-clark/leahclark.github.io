@@ -6,14 +6,14 @@ import "./music.css"
 class Music extends Component {
     render() {
         return (
-            <div className="Music">
-                <img className="poster" src={Black} alt="poster" />
+            <div className="music">
+                <p className="pmusic"> Music is coming soon! Watch out here and on the social media links below.</p>
             </div>
         );
     }
 }
 
-export default Music;
+export default  Music;
 
 
 
