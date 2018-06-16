@@ -4,9 +4,7 @@ import Header from "./home/Header";
 import Menu from "./home/Menu";
 import Footer from "./home/Footer";
 import Responsive from 'react-responsive-decorator';
-import HamburgerMenu from "./home/HamburgerMenu";
 import Routing from "./Routing";
-import Burger from './resources/hamburger.png'
 import BurgerInteraction from "./home/BurgerInteraction"
 
 class App extends Component {

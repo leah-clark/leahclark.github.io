@@ -13,7 +13,7 @@ class Menu extends Component {
                     <Link to='/info'>INFO</Link>
                     <Link to='/shows'>SHOWS</Link>
                     <Link to='/music'>MUSIC</Link>
-                    <Link to='/stories'>STORIES</Link>
+                    <Link to='/store'>STORE</Link>
                     <Link to='/gallery'>GALLERY</Link>
                     <Link to='/news'>NEWS</Link>
                 </div>

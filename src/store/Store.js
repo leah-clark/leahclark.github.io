@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
-import Black from "../resources/black_page.jpg"
+import Black from "../resources/black_page.jpg";
+import './Store.css'
 
 
-class Stories extends Component {
+class Store extends Component {
     render() {
         return (
-            <div className="Stories">
+            <div className="store">
                 <img className="poster" src={Black} alt="poster"/>
             </div>
         );
     }
 }
 
-export default Stories;
+export default Store;
 
 
 

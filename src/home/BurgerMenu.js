@@ -9,7 +9,7 @@ export default ({ close }) => (
                     <li> <Link to='/info' onClick={close}>INFO</Link></li>
                     <li> <Link to='/shows' onClick={close}>SHOWS</Link></li>
                     <li><Link to='/music' onClick={close}>MUSIC</Link></li>
-                    <li> <Link to='/stories' onClick={close}>STORIES</Link></li>
+                    <li> <Link to='/store' onClick={close}>STORE</Link></li>
                     <li> <Link to='/gallery' onClick={close}>GALLERY</Link></li>
                     <li> <Link to='/news' onClick={close}>NEWS</Link></li>
                 </ul>

@@ -6,7 +6,7 @@ import Home from './home/Home'
 import Music from './music/music'
 import Gallery from './gallery/gallery'
 import News from './news/News'
-import Stories from './stories/Stories'
+import Store from './store/Store'
 import Shows from './shows/Shows'
 
 class Routing extends Component {
@@ -21,7 +21,7 @@ class Routing extends Component {
                     <Route path='/music' component={Music}/>
                     <Route path='/gallery' component={Gallery}/>
                     <Route path='/news' component={News}/>
-                    <Route path='/stories' component={Stories}/>
+                    <Route path='/store' component={Store}/>
                     <Route path='/shows' component={Shows}/>
                 </Switch>
             </div>
