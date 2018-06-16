@@ -7,7 +7,7 @@ import Responsive from 'react-responsive-decorator';
 import HamburgerMenu from "./home/HamburgerMenu";
 import Routing from "./Routing";
 import Burger from './resources/hamburger.png'
-
+import BurgerInteraction from "./home/BurgerInteraction"
 
 class App extends Component {
     state = {
@@ -32,7 +32,7 @@ class App extends Component {
           <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"></meta>
           <Header/>
           {isMobile ?
-              <HamburgerMenu/> :
+              <BurgerInteraction /> :
               <Menu/>
           }
           <hr className="hr"/>

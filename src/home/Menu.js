@@ -9,7 +9,7 @@ class Menu extends Component {
             <div className="Menu">
                 <hr />
                 <div className="topnav">
-                    <Link  to='/'>HOME</Link>
+                    <Link to='/'>HOME</Link>
                     <Link to='/info'>INFO</Link>
                     <Link to='/shows'>SHOWS</Link>
                     <Link to='/music'>MUSIC</Link>

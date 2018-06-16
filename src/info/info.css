@@ -67,6 +67,7 @@
     .garage{
         float: none;
         height: 40vw;
+        margin-top: 4vw;
         position: absolute;
         padding: 2vw;
         margin-left: -12vw;
