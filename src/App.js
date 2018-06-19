@@ -33,7 +33,6 @@ class App extends Component {
               <BurgerInteraction /> :
               <Menu/>
           }
-          <hr className="hr"/>
           <Routing/>
         <Footer/>
       </div>

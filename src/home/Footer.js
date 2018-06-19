@@ -15,7 +15,6 @@ class Footer extends Component {
     render() {
         return (
             <div className="footer">
-                <hr/>
                 <a href="https://www.facebook.com/twotiltwelve/" target="_blank">
                         <img border="0" className="icon" alt="Facebook" src={Facebook} ></img></a>
                     <a href="https://twitter.com/TwoTilTwelve" target="_blank">
