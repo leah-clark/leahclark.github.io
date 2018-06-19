@@ -6,6 +6,10 @@
     font-size: 2vw;
 }
 
+.music {
+    padding-top: 3vw;
+}
+
 @media only screen and (max-width: 600px) {
     .pmusic {
         font-size: 4vw;
