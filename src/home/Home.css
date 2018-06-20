@@ -42,8 +42,9 @@
 .topnav {
     background-color: black;
     overflow: hidden;
+    filter: grayscale(100%);
     z-index: 2;
-    position: fixed;
+    position: absolute;
     border-top: solid 1px;
     border-top-color: white;
     border-bottom: solid 1px;
@@ -82,7 +83,8 @@
 }
 
 .poster {
-    height:500px;
+    height:600px;
+    margin-top: 4vh;
 }
 
 /* Change the color of links on hover */
@@ -113,6 +115,7 @@
 
 video.fullscreen {
     position: fixed;
+    filter: grayscale(100%);
     top: 80%;
     left: 50%;
     min-width: 100%;
