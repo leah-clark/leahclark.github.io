@@ -8,9 +8,15 @@ class Shows extends Component {
         return (
             <div className="shows">
                 <table className="tableshows">
-                    <tr>
+                    <tr className="over">
                         <td>JULY 06 2018</td>
                         <td>LIVE @ MOZARTS</td>
+                        <td>SWANSEA, WALES</td>
+                        <td style={{border: "2px solid White"}}>TICKETS</td>
+                    </tr>
+                    <tr className="over">
+                        <td>AUGUST 03 2018</td>
+                        <td>LIVE @ CREATRE SOUND</td>
                         <td>SWANSEA, WALES</td>
                         <td style={{border: "2px solid White"}}>TICKETS</td>
                     </tr>
