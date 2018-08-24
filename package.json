@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "facebook-plugins": "^1.0.5",
+    "fsevents": "^1.0.17",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "reactjs-popup": "^1.1.1"
