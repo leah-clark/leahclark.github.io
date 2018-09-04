@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "async": "^2.6.1",
     "facebook-plugins": "^1.0.5",
-    "fsevents": "^1.0.17",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
+    "react-responsive-decorator": "0.0.1",
     "reactjs-popup": "^1.1.1"
   },
   "devDependencies": {
