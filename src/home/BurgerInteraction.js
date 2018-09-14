@@ -22,6 +22,7 @@ const BurgerInteraction = () => (
         >
             {close => <Menu close={close} />}
         </Popup>
+
 );
 
 export default BurgerInteraction;
