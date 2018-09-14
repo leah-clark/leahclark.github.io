@@ -20,7 +20,14 @@ class Shows extends Component {
                         <td>SWANSEA, WALES</td>
                         <td style={{border: "2px solid White"}}>TICKETS</td>
                     </tr>
+                    <tr >
+                        <td>SEPTEMBER 14 2018</td>
+                        <td>LIVE @ MOZARTS</td>
+                        <td>SWANSEA, WALES</td>
+                        <td style={{border: "2px solid White"}}>TICKETS</td>
+                    </tr>
                 </table>
+
                 <p className="pshows">WITH MORE TO BE ANNOUNCED...</p>
             </div>
         );
