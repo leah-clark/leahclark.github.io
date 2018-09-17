@@ -83,8 +83,8 @@
 }
 
 .poster {
-    height:600px;
-    margin-top: 4vh;
+    height:56vh;
+    margin-top: 8vh;
 }
 
 /* Change the color of links on hover */
@@ -131,7 +131,7 @@ video.fullscreen {
 @media only screen and (max-width: 600px) {
     .poster {
         height: 75vw;
-        margin-left:-22vw;
+        margin-left:20vw;
     }
 
     .Header {

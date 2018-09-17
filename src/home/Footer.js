@@ -19,11 +19,11 @@ class Footer extends Component {
                         <img border="0" className="icon" alt="Facebook" src={Facebook} ></img></a>
                     <a href="https://twitter.com/TwoTilTwelve" target="_blank">
                         <img border="0" className="icon" alt="Twitter" src={Twitter}></img></a>
-                    <a href="https://www.instagram.com" target="_blank">
+                    <a href="https://www.instagram.com/twotiltwelve/" target="_blank">
                         <img border="0" className="icon" alt="Instagram" src={Instagram} ></img></a>
                     <a href="www.snapchat.com" target="_blank">
                         <img border="0" className="icon" alt="Snapchat" src={Snapchat}></img></a>
-                    <a href="www.youtube.com" target="_blank">
+                    <a href="https://www.youtube.com/user/ZinniarHD" target="_blank">
                        <img border="0" className="icon" alt="YouTube" src={YouTube}></img></a>
                     <a href="www.spotify.com">
                         <img border="0" className="icon" alt="Spotify" src={Spotify} ></img></a>

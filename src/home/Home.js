@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Poster from "../resources/mozarts.jpg"
+import Poster from "../resources/whosavesthehero.jpeg"
 import './Home.css';
 import VideoScreen from "./VideoScreen";
 import Responsive from 'react-responsive-decorator';
