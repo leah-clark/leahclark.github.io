@@ -26,6 +26,18 @@ class Shows extends Component {
                         <td>SWANSEA, WALES</td>
                         <td style={{border: "2px solid White"}}>TICKETS</td>
                     </tr>
+                    <tr className="over" >
+                        <td>DECEMBER 28 2018</td>
+                        <td>LIVE @ CREATURE SOUND</td>
+                        <td>SWANSEA, WALES</td>
+                        <td style={{border: "2px solid White"}}>TICKETS</td>
+                    </tr>
+                    <tr className="over" >
+                        <td>JANUARY 23 2019</td>
+                        <td>BATTLE OF THE BANDS</td>
+                        <td>SWANSEA, WALES</td>
+                        <td style={{border: "2px solid White"}}>TICKETS</td>
+                    </tr>
                 </table>
                 <p className="pshows">WITH MORE TO BE ANNOUNCED...</p>
             </div>

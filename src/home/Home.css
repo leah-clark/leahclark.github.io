@@ -130,8 +130,8 @@ video.fullscreen {
 
 @media only screen and (max-width: 600px) {
     .poster {
-        height: 75vw;
-        margin-left:20vw;
+        height: 45vh;
+        margin-left:25vw;
     }
 
     .Header {

@@ -30,7 +30,6 @@ class Home extends Component {
                     <div/> :
                     <VideoScreen/>
                 }
-                <img className="poster" src={Poster} alt="poster"/>
             </div>
         );
     }
