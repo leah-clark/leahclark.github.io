@@ -7,7 +7,7 @@ class Info extends Component {
     render() {
         return (
             <div className="Info">
-                <img className="garage" src={Garage}  alt="garage"/>
+                <img className="garage" src={Garage}  alt="garag"/>
                 <h1 className="h1">WHO ARE WE? </h1>
                 <p className="text1"> Two Til Twelve are an five-piece alternative rock ’n’ roll band who play both covers and original music from the beautiful city of Swansea.</p>
                 <p className="text2">The band consists of; Joel Clark (lead vocalist), Shorn Swayne (guitarist), Matt Kivi (guitarist), Owain Davies (bass guitarist) and Aaron Abraham (drummer). </p>
