@@ -2,9 +2,13 @@ import React, { Component } from 'react';
 import Black from "../resources/black_page.jpg"
 import "./news.css"
 import Iframe from './Iframe'
+import Responsive from 'react-responsive-decorator';
 
 
 class News extends Component {
+    state = {
+        isMobile: false
+    }
     constructor(props) {
         super(props);
         this.state = {
@@ -12,16 +16,33 @@ class News extends Component {
         };
     }
 
+    
+    componentDidMount() {
+        this.props.media({ minWidth: 768 }, () => {
+            this.setState({
+                isMobile: false
+            });
+        });
+        this.props.media({ maxWidth: 768 }, () => {
+            this.setState({
+                isMobile: true
+            });
+        });
+    }
+
     render() {
+        const { isMobile } = this.state;
         return (
             <div className="News">
-                <Iframe source={this.state.src} />
+              {isMobile ?
+                <Iframe source={this.state.src} />:
+                <div/>}
             </div>
         );
     }
 }
 
-export default  News;
+export default  Responsive(News);
 
 
 
