@@ -129,6 +129,21 @@ video.fullscreen {
 
 
 @media only screen and (max-width: 600px) {
+
+    video.fullscreen {
+        position: fixed;
+        filter: grayscale(100%);
+        top: 65%;
+        left: 80%;
+        min-width: 40px;
+        min-height: 70px;
+        width: auto;
+        height: auto;
+        z-index: 1;
+        transform: translate(-50%, -50%);
+        opacity: 0.3;
+    }
+
     .poster {
         height: 45vh;
         margin-left:25vw;

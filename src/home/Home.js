@@ -27,7 +27,7 @@ class Home extends Component {
         return (
             <div className="Home">
                 {isMobile ?
-                    <div/> :
+                    <VideoScreen/>:
                     <VideoScreen/>
                 }
             </div>
