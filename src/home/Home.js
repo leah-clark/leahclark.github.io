@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Poster from "../resources/whosavesthehero.jpeg"
+import Poster from "../resources/debut.jpg"
 import './Home.css';
 import VideoScreen from "./VideoScreen";
 import Responsive from 'react-responsive-decorator';
@@ -30,6 +30,7 @@ class Home extends Component {
                     <VideoScreen/>:
                     <VideoScreen/>
                 }
+                <img className="poster" src={Poster} alt="poster"/>
             </div>
         );
     }

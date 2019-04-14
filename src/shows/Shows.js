@@ -38,6 +38,12 @@ class Shows extends Component {
                         <td>SWANSEA, WALES</td>
                         <td style={{border: "2px solid White"}}>TICKETS</td>
                     </tr>
+                    <tr >
+                        <td>APRIL 17 2019</td>
+                        <td>"AVENUE" LAUNCH @ BUNKHOUSE</td>
+                        <td>SWANSEA, WALES</td>
+                        <td style={{border: "2px solid White", backgroundColor: "white"}}><a className="links" href="https://www.gigantic.com/two-til-twelve-tickets/the-bunkhouse/2019-04-17-19-00?utm_source=ents24&utm_medium=affiliate&utm_campaign=ents24" target="_blank"> TICKETS</a></td>
+                    </tr>
                 </table>
                 <p className="pshows">WITH MORE TO BE ANNOUNCED...</p>
             </div>

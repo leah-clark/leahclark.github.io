@@ -25,7 +25,7 @@ class Footer extends Component {
                         <img border="0" className="icon" alt="Snapchat" src={Snapchat}></img></a>
                     <a href="https://www.youtube.com/user/ZinniarHD" target="_blank">
                        <img border="0" className="icon" alt="YouTube" src={YouTube}></img></a>
-                    <a href="www.spotify.com">
+                    <a href="https://open.spotify.com/album/7BC59gmSxV1bSeEmlwqmzU?si=jCE8xnlFRim4xaA3IZVZdg&fbclid=IwAR0tZBMkpLdt-59X_JOlgt8ws00oK0K6F-McdihZWjZZXjR7dAmKqeqBoVY" target="_blank">
                         <img border="0" className="icon" alt="Spotify" src={Spotify} ></img></a>
             </div>
         );

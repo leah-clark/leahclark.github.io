@@ -11,7 +11,7 @@ const Iframe = ({ source }) => {
         // basic bootstrap classes. you can change with yours.
         <div className="col-md-12">
             <div className="emdeb-responsive">
-                <iframe src={src} scrolling="no" style={{height: "490px", width: "340px", marginTop: "8px", overflow: "hidden"}}></iframe>
+                <iframe src={src} scrolling="no" style={{height: "440px", width: "306px", marginTop: "8px", overflow: "hidden"}}></iframe>
             </div>
         </div>
     );
